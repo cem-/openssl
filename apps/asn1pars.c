@@ -200,7 +200,7 @@ int MAIN(int argc, char **argv)
 	if (badops)
 		{
 bad:
-		BIO_printf(bio_err,"%s [options] <infile\n",prog);
+		BIO_printf(bio_err,"%s [options] <infile>\n",prog);
 		BIO_printf(bio_err,"where options are\n");
 		BIO_printf(bio_err," -inform arg   input format - one of DER PEM\n");
 		BIO_printf(bio_err," -in arg       input file\n");
